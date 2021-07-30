@@ -1,0 +1,148 @@
+body{
+  font-family: "Montserrat"
+}
+.top-img{
+  padding-top: 20px;
+}
+.section-one{
+  padding-top: 1%;
+  padding-left: 15%;
+}
+.heading{
+  color: #fff;
+  font-family: "Montserrat" ;
+  font-size: 5rem;
+  line-height: 1;
+  padding-top: 7%;
+}
+.heading-paragraph{
+  color:#fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+}
+#head-pic{
+  padding-top: 100px;
+}
+strong{
+  color: yellow;
+}
+#title{
+  background: linear-gradient(89.09deg,#683dad .88%,#2c56b6 99.39%);
+  background-size: 300% 300%;
+  -webkit-clip-path: polygon(0 0,100% 0,100% 92.5%,0 100%);
+  clip-path: polygon(0 0,100% 0,100% 92.5%,0 100%);
+  display: block;
+  height: calc(100% + 40px);
+  left: 0;
+  pointer-events: none;
+
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+#brand-logo {
+  padding-top: 200px;
+  padding-bottom:100px ;
+  padding-left: 150px;
+  padding-right: 100px;
+
+}
+.mid-img{
+  width: 60%;
+}
+#features{
+  text-align: center;
+  padding-bottom: 200px;
+}
+.above-feature{
+  padding-top: 5%;
+  padding-bottom: 10%;
+
+  text-align: center;
+}
+.above-feature-text{
+  font-size: 3rem;
+}
+.p-line{
+  font-size: 1.5rem;
+  padding-top: 30px;
+}
+
+.feature-img{
+  width: 20%;
+  margin-bottom: 2rem;
+}
+/* navigation bar*/
+
+.nav-item{
+  padding: 0 20px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.navbar{
+  padding: 0 20px 0 400px;
+}
+.navbar-brand{
+  width: 10%;
+}
+.pad{
+  padding-top: 50px;
+}
+#product-page{
+  text-align: center;
+  background-color: #eeedf5;
+  padding: 70px 0;
+}
+.stack-img{
+  width: 50%;
+  padding-top: 10px;
+}
+.sec-three-head{
+  font-size: 3rem;
+}
+.sec-three-para{
+  font-size: 1.5rem;
+  padding-top: 30px;
+}
+#faded-product-page{
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.faded-sec-head{
+  font-size: 3rem;
+}
+.faded-sec-para{
+  font-size: 1.5rem;
+}
+.faded-head-para{
+  padding-bottom: 100px;
+}
+#tilted-section {
+  background: linear-gradient(
+    89.09deg
+    ,#683dad .88%,#2c56b6 99.39%);
+  -webkit-clip-path: polygon(0 7.5%,100% 0,100% 92.5%,0 100%);
+  clip-path: polygon(0 7.5%,100% 0,100% 92.5%,0 100%);
+  padding: 90px 0;
+  position: relative;
+  text-align: center;
+}
+.tilted-sec-head{
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+.tilted-sec-para{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
