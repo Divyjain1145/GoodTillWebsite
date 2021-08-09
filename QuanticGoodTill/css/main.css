@@ -9,7 +9,20 @@ body{
   position: relative;
   width: 100%;
 }
-
+.container{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1230px;
+  padding: 0 15px;
+  position: relative;
+  width: 100%;
+}
+/*====================================================================================*/
 /*Navigation Bar*/
 .top-nav-bar{
   top:30px;
@@ -56,7 +69,7 @@ body{
 }
 
 /*End of Navbar Section*/
-
+/*====================================================================================*/
 /*Section one*/
 
 .top-bg{
@@ -159,7 +172,7 @@ body{
 }
 
 /*End of Section one*/
-
+/*====================================================================================*/
 /*Brand section*/
 
 .brand-list {
@@ -202,11 +215,12 @@ body{
 }
 .brand-sec{
   justify-content: space-between;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 250px;
+  padding-bottom: 150px;
 }
-/*End of Brand Section*/
 
+/*End of Brand Section*/
+/*====================================================================================*/
 
 #features{
   text-align: center;
@@ -236,12 +250,146 @@ body{
 }
 .p-line{
   font-size: 1.5rem;
-  padding-top: 30px;
+  padding-top: 70px;
+}
+.feature-box{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .feature-img{
   width: 20%;
   margin-bottom: 2rem;
 }
+
+/*====================================================================================*/
+/*Stacked photo Section*/
+
+.stacked-photo-sec{
+  background-color: #eeedf5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.stacked-sec-intro{
+  /*max-width: 750px;*/
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.stacked-sec-intro-head{
+  color: #0e0e12;
+  font-family: Inter,sans-serif;
+  font-weight: 600;
+  font-size: 3em;
+  line-height: 3.5625rem;
+}
+.stacked-sec-intro-para{
+  margin-top: 25px;
+  font-size: 1.25em;
+  line-height: 2rem;
+  font-weight: 300;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+.product-cta{
+  padding-bottom: 30px;
+}
+.stacked-img{
+  font-style: italic;
+  display: inline-block;
+  max-width: 100%;
+}
+.product-one-btn{
+  background-color: #fbcf15;
+  border: none;
+  border-radius: 24px;
+  color: #181d1e;
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  outline: 0;
+  padding: 0 30px 0 30px;
+  position: relative;
+  text-align: center;
+  transition: background-color .25s ease;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/*End of stacked img section*/
+/*==========================================================================================*/
+
+/*Faded Img Section*/
+
+.faded-img-sec{
+  background-color: #fff;
+  padding-bottom: 70px;
+  padding-top: 140px;
+  position: relative;
+  width: 100%;
+}
+.faded-sec-intro{
+  margin: 0 auto 60px;
+  max-width: 750px;
+  text-align: center;
+}
+.faded-sec-intro-head{
+  font-size: 3em;
+  line-height: 3.5625rem;
+  font-weight: 600;
+  color: #0e0e12;
+  font-family: Inter,sans-serif;
+}
+.faded-sec-intro-para{
+  margin-top: 25px;
+  font-size: 1.25em;
+  line-height: 2rem;
+  font-weight: 300;
+}
+.faded-sec-image{
+  position: relative;
+  text-align: center;
+  background: linear-gradient(
+          180deg
+          ,hsla(0,0%,100%,0),hsla(0,0%,100%,.3) 31%,#fff);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.faded-img{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  border: 0;
+  max-width: 100%;
+}
+/*End of Faded image Section*/
+/*====================================================================================*/
+/*Tilted Section*/
+
+.tilted-sec{
+  clip-path: polygon(0 17.5%,100% 0,100% 82.5%,0 100%);
+  padding: 200px 0;
+  background: linear-gradient(
+          89.09deg
+          ,#683dad .88%,#2c56b6 99.39%);
+  padding: 90px 0;
+  position: relative;
+}
+
+
+
+
+
+
 
 
 
@@ -597,4 +745,47 @@ body{
 /*  padding-top: 2px;*/
 
 
+/*}*/
+
+
+
+/*.product-list{*/
+/*  padding-right: 30px;*/
+/*  padding-top: 0;*/
+/*  position: relative;*/
+/*}*/
+/*.product-item{*/
+/*  margin-bottom: 10px;*/
+/*  padding: 35px;*/
+/*  background-color: #fff;*/
+/*  border-radius: 10px;*/
+/*  box-shadow: 0 4px 6px rgb(0 5 74 / 7%);*/
+/*  padding: 25px;*/
+/*  position: relative;*/
+/*  transition: background-color .25s ease;*/
+/*}*/
+/*.product-item:hover{*/
+/*  background-color: #fbcf15;*/
+/*}*/
+/*.product-item-one-head{*/
+/*  padding-left: 15px;*/
+/*  color: #fff;*/
+/*  position: relative;*/
+/*}*/
+/*.product-one-content-inner{*/
+/*  padding: 15px;*/
+/*}*/
+/*.product-item-one-para{*/
+/*  margin-top: 20px;*/
+/*  margin-bottom: 30px;*/
+/*  max-width: 24.375rem;*/
+/*  font-size: 1em;*/
+/*  font-weight: 300;*/
+/*  line-height: 1.5625rem;*/
+/*  position: relative;*/
+/*}*/
+
+/*.product-item-other-head{*/
+/*  font-size: 1.25em;*/
+/*  line-height: 1.5rem;*/
 /*}*/
